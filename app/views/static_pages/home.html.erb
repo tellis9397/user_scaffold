@@ -1,0 +1,10 @@
+<div class="center jumbotron">
+	<h1>Ripple.fx</h1>
+
+	<h2>
+	    Win free tickets to Boston concerts!
+	</h2>
+	<% unless logged_in? %>
+		<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+	<% end %>
+</div>
